@@ -97,6 +97,8 @@ def handwritingClassTest():
         # 获得预测结果
         # classifierResult = classify0(vectorUnderTest, trainingMat, hwLabels, 3)
         classifierResult = neigh.predict(vectorUnderTest)
+        print(type(classifierResult))
+        exit()
         if (classifierResult != classNumber):
             print("分类返回结果为%d\t真实结果为%d" % (classifierResult, classNumber))
             errorCount += 1.0
