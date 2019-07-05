@@ -70,7 +70,7 @@ def test():
             errorCount += 1
             print('测试结果：%d 真是结果：%d' % (result[0], testNumber))
 
-    print('错误个数：%d，总数：%d，错误率：%f%%' % (errorCount, len(listTestFiles), 100 * errorCount / len(listTestFiles)))
+    print('错误个数：%d，总数：%d，错误率：%f%%' % (errorCount, len(listFiles), 100 * errorCount / len(listFiles)))
 
 if __name__ == '__main__':
     test()
