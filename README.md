@@ -49,9 +49,7 @@
 > 概念
 1. 经验熵
 
-$$H(D)=-\sum_{k=0}^{k} \frac{|C_k|}{{ |D|} } \log_2\frac{|C_k|}{{ |D|} } $$
-
-
+![$$H(D)=-\sum_{k=0}^{k} \frac{|C_k|}{{ |D|} } \log_2\frac{|C_k|}{{ |D|} } $$](http://latex.codecogs.com/gif.latex?%24%24H%28D%29%3D-%5Csum_%7Bk%3D0%7D%5E%7Bk%7D%20%5Cfrac%7B%7CC_k%7C%7D%7B%20%7B%20%7CD%7C%7D%20%7D%20%5Clog_2%5Cfrac%7B%7CC_k%7C%7D%7B%20%7B%20%7CD%7C%7D%20%7D%20%24%24)
 
 
 
